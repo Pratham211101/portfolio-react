@@ -51,59 +51,36 @@ const ProjectCard = ({ title, description, image, techStack, repoLink, liveLink 
 const Projects = () => {
   const projects = [
     {
-      title: "VBLOG: A Blogging Platform",
-      description: "A Blogging Platform that allows users to create, read, comment and like blogs. Users can search thorugh their favourite categories of blogs. There are Admin priveleges for managing the platform as well.",
+      title: "ToBeHonest: A Blogging Platform",
+      description: "A Blogging Platform that allows users to create, read, edit and delete blogs. ",
       image: "/mernblog.png",
-      techStack: ["React", "Tailwind", "Shadcn UI", "MongoDB", "Firebase", "NodeJS", "Express"],
-      repoLink: "https://github.com/Velstruck/mern-blog-app",
-      liveLink: "https://mern-blog-app-lvln.vercel.app"
+      techStack: ["React", "Tailwind", "Shadcn UI", "MongoDB", "Appwrite", "NodeJS", "Express"],
+      repoLink: "https://github.com/Pratham211101/ToBeHonest",
+      liveLink: "https://the-blog-hub-tau.vercel.app/"
     },
     {
       title: "CrowdFunding Platform: Using Web3",
       description: "This project aims to create a secure and user-friendly crowdfunding platform leveraging the power of Web3 and blockchain technology.",
       image: "/crowdfunding.png",
       techStack: ["NextJS", "Tailwind", "Solidity", "Hardhat", "React", "NodeJS", "Blockchain"],
-      repoLink: "https://github.com/Velstruck/crowdfunding-web3-app",
+      repoLink: "https://github.com/Pratham211101/crowdfunding-web3-app",
     },
     {
-      title: "Event Manager App",
-      description: "This is an Event Management Application that allows users to create, manage, and participate in events. The application provides a user-friendly interface to handle all event-related activities",
-      image: "/eventmanager.png",
-      techStack: ["React","Tailwind", "Node.js", "Firebase"],
-      repoLink: "https://github.com/Velstruck/event-manager-app",
-      liveLink: "https://manage-event-app.vercel.app"
+      title: "MediaVault",
+      description: "A media management application that allows users to upload, manage, compress, and share their media files. It provides a user-friendly interface for organizing and accessing media content.",
+      image: "/mediavault.png",
+      techStack: ["NextJS" , "Tailwind" , "Node.js" , "NeonDB" , "Express" , "Cloudinary" , "Prisma"],
+      repoLink: "https://github.com/Pratham211101/MediaVault",
+      liveLink: "https://media-vault-dusky.vercel.app"
     },
     {
-      title: "Story Forge",
-      description: "A blogging platform allowing users to create and read blogs",
-      image: "/storyforge.png",
-      techStack: ["React","Redux","Tailwind", "Node.js", "Appwrite","TinyMCE"],
-      repoLink: "https://github.com/Velstruck/story-forge",
-      liveLink: "https://story-forge.netlify.app"
-    },
-    {
-      title: "GameUrge: Discover Games",
-      description: "A modern, interactive game search application that lets users discover and explore video games using the IGDB API. Features a beautiful UI with gaming-themed animations and real-time search capabilities.",
-      image: "/gameurge.png",
-      techStack: ["React", "Framer-Motion", "Tailwind","Node.js", "IGDB API"],
-      repoLink: "https://github.com/Velstruck/game-urge-app",
-      liveLink: "https://gameurge.vercel.app/"
-    },
-    {
-      title: "MovieUrge: Discover Movies",
-      description: "This project is a movie database application built using React. It allows users to search for movies, view movie details, and see trending movies. The application leverages several technologies and APIs to provide a rich user experience.",
-      image: "/movieurge.png",
-      techStack: ["React", "Tailwind","Node.js", "TMDB API","Appwrite"],
-      repoLink: "https://github.com/Velstruck/movie-db-app",
-      liveLink: "https://movieurge.netlify.app/"
-    },
-    {
-      title: "Celebrity Predictor",
-      description: "This project, utilizing the VGGFace model, exemplifies the cutting-edge application of image processing and deep learning in the entertainment industry and highlights the potential of AI in face recognition, paving the way for future innovations in image analysis and the entertainment sector.",
-      image: "/celebrity.png",
-      techStack: ["Python", "MySQL","TensorFlow", "Scikit-learn","OpenCV","Streamlit","Keras","MTCNN"],
-      repoLink: "https://github.com/Velstruck/ol-celeb",
-    },
+      title: "StreamFlix",
+      description: "A video streaming application that allows users to watch and manage their favorite videos using plalylists. Users can like ,subscribe and comment on videos. It also provides a user-friendly interface for browsing, searching, history and watching content.",
+      image: "/streamflix.png",
+      techStack: ["React", "Tailwind","Node.js", "Express", "MongoDB", "Shadcn UI"],
+      repoLink: "https://github.com/Pratham211101/frontend-stream-flix",
+      liveLink: "https://frontend-stream-flix.vercel.app/"
+    }
     
   ]
 
