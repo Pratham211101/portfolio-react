@@ -21,7 +21,7 @@ const Experience = () => {
       logo: '/companyimage.png',
       company: "Orange Essence Technologies",
       role: "Web Developer Intern",
-      duration: "Mar 2025 - " //  
+      duration: "Jan 2025 - Apr 2025" //  
     }
   ]
 
