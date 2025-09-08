@@ -12,11 +12,13 @@ const ProjectCard = ({ title, description, image, techStack, repoLink, liveLink 
     <Card className="group transition-all duration-300 hover:shadow-lg">
       <CardHeader>
         <div className="aspect-video w-full overflow-hidden rounded-lg mb-4">
+          <a href={liveLink} target="_blank" rel="noopener noreferrer">
           <img
             src={image}
             alt={title}
             className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
           />
+          </a>
         </div>
         <CardTitle>{title}</CardTitle>
         <CardDescription>{description}</CardDescription>
@@ -80,6 +82,13 @@ const Projects = () => {
       techStack: ["React", "Tailwind","Node.js", "Express", "MongoDB", "Shadcn UI"],
       repoLink: "https://github.com/Pratham211101/frontend-stream-flix",
       liveLink: "https://frontend-stream-flix.vercel.app/"
+    },{
+      title: "TideWatch",
+      description: "TideWatch is a modern web app for tracking real-time tide data, finding the best fishing times, and saving favorite coasts. It automatically detects your location, fetches nearby tide station data, and works offline with cached information — all in a clean, responsive interface built with React, Vite, and Tailwind CSS.",
+      image: "/tidewatch.png",
+      techStack: ["React", "Tailwind","React-leaflet", "moment.js", "Recharts.js", "lucide-react"],
+      repoLink: "https://github.com/Pratham211101/TideWatch",
+      liveLink: "https://tidewatch2111.vercel.app/"
     }
     
   ]
